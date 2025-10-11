@@ -33,7 +33,7 @@ export function AboutSection() {
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-xl">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1517089152318-42ec560349c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBlcXVpcG1lbnR8ZW58MXx8fHwxNzU5Nzc3MDc3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="/images/building/building2.jpeg"
                 alt="Construction equipment and manufacturing"
                 className="w-full h-[500px] object-cover"
               />
@@ -49,7 +49,7 @@ export function AboutSection() {
             <h2 className="text-4xl">Leading Debris Chute Manufacturers in Pune</h2>
 
             <p className="text-lg text-muted-foreground">
-              Aakaar Green is a premier manufacturer and supplier of building debris chutes in Pune, Maharashtra. 
+              Innovative Engineering is a premier manufacturer and supplier of building debris chutes in Pune, Maharashtra. 
               With over 15 years of experience, we have established ourselves as a trusted name in the construction 
               equipment industry across India.
             </p>
@@ -58,6 +58,12 @@ export function AboutSection() {
               Our manufacturing facility in Pune is equipped with modern machinery and skilled workforce to deliver 
               high-quality debris chutes, garbage chutes, and waste management solutions. We specialize in custom 
               designs tailored to meet specific project requirements, ensuring safety and efficiency on every job site.
+            </p>
+            
+            <p className="text-muted-foreground">
+              Established in 2008, Innovative Engineering has grown to become one of the leading providers of construction 
+              waste management solutions. Our team of experienced engineers and technicians are dedicated to delivering 
+              products that meet the highest standards of quality and safety.
             </p>
 
             <div className="pt-4 space-y-4">

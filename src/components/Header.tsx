@@ -9,10 +9,12 @@ export function Header() {
           {/* Logo */}
           <div className="flex items-center">
             <div className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-green-600 rounded-lg flex items-center justify-center">
-                <div className="w-6 h-6 border-2 border-white rounded"></div>
-              </div>
-              <span className="text-xl">Aakaar Green</span>
+              <img 
+                src="/images/logo/logo.jpeg" 
+                alt="Innovative Engineering Logo" 
+                className="w-10 h-10 object-contain"
+              />
+              <span className="text-xl">Innovative Engineering</span>
             </div>
           </div>
 

@@ -1,8 +1,21 @@
 import { Button } from "./ui/button";
-import { ArrowRight, CheckCircle } from "lucide-react";
+import { ArrowRight, CheckCircle, MessageSquare } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import { useState } from "react";
 
 export function Hero() {
+  const handleGetQuote = () => {
+    // Scroll to contact form
+    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+  };
+  
+  const handleWhatsAppContact = () => {
+    // Admin WhatsApp number (replace with actual number)
+    const adminWhatsApp = "919876543210"; // Format: country code + number without +
+    
+    // Open WhatsApp in a new tab
+    window.open(`https://wa.me/${adminWhatsApp}?text=${encodeURIComponent("I'm interested in getting a quote for debris chutes.")}`, "_blank");
+  };
   return (
     <section className="relative bg-gradient-to-br from-slate-50 to-slate-100 overflow-hidden">
       <div className="container mx-auto px-4 py-20 lg:py-32">
@@ -10,7 +23,7 @@ export function Hero() {
           {/* Content */}
           <div className="space-y-8">
             <div className="inline-block px-4 py-2 bg-green-100 rounded-full">
-              <span className="text-sm text-green-700">Pune's Premier Chute Manufacturer</span>
+              <span className="text-sm text-green-700">Innovative Engineering - Pune's Premier Chute Manufacturer</span>
             </div>
             
             <h1 className="text-5xl lg:text-6xl">
@@ -38,12 +51,18 @@ export function Hero() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="gap-2 bg-green-600 hover:bg-green-700">
+              <Button size="lg" className="gap-2 bg-green-600 hover:bg-green-700" onClick={handleGetQuote}>
                 Get a Quote
                 <ArrowRight className="w-4 h-4" />
               </Button>
-              <Button size="lg" variant="outline">
-                View Catalog
+              <Button 
+                size="lg" 
+                variant="outline"
+                className="flex items-center gap-2"
+                onClick={handleWhatsAppContact}
+              >
+                <MessageSquare className="w-4 h-4" />
+                WhatsApp Us
               </Button>
             </div>
 
@@ -69,7 +88,7 @@ export function Hero() {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1692229080119-92181dacd91c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGNvbnN0cnVjdGlvbiUyMHNpdGV8ZW58MXx8fHwxNzU5NzMxMDg2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="/images/building/building1.jpeg"
                 alt="Building construction site with debris management"
                 className="w-full h-[500px] object-cover"
               />

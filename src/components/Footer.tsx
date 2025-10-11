@@ -8,13 +8,15 @@ export function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-green-600 rounded-lg flex items-center justify-center">
-                <div className="w-5 h-5 border-2 border-white rounded"></div>
-              </div>
-              <span className="text-white">Aakaar Green</span>
+              <img 
+                src="/images/logo/logo.jpeg" 
+                alt="Innovative Engineering Logo" 
+                className="w-8 h-8 object-contain"
+              />
+              <span className="text-white">Innovative Engineering</span>
             </div>
             <p className="text-sm mb-4">
-              Leading manufacturer of building debris chutes in Pune. Serving construction industry across India.
+              Leading manufacturer of building debris chutes in Pune. Innovative Engineering serves the construction industry across India.
             </p>
             <div className="flex gap-3">
               <a href="#" className="w-9 h-9 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-slate-700 transition-colors">

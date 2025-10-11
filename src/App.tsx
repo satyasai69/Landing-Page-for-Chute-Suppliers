@@ -5,6 +5,7 @@ import { Products } from "./components/Products";
 import { Specifications } from "./components/Specifications";
 import { Applications } from "./components/Applications";
 import { AboutSection } from "./components/AboutSection";
+import { Clients } from "./components/Clients";
 import { CTA } from "./components/CTA";
 import { Footer } from "./components/Footer";
 
@@ -18,6 +19,7 @@ export default function App() {
       <Specifications />
       <Applications />
       <AboutSection />
+      <Clients />
       <CTA />
       <Footer />
     </div>

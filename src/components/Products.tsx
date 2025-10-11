@@ -13,7 +13,7 @@ const products = [
       "Weather-resistant coating",
       "Easy assembly & dismantling"
     ],
-    image: "https://images.unsplash.com/photo-1640416198776-e24939eb9fdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoaWdoJTIwcmlzZSUyMGJ1aWxkaW5nJTIwY29uc3RydWN0aW9ufGVufDF8fHx8MTc1OTc3NzA3Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "/images/building/building1.jpeg",
     badge: "Most Popular"
   },
   {
@@ -25,7 +25,7 @@ const products = [
       "High load capacity",
       "Powder coating finish"
     ],
-    image: "https://images.unsplash.com/photo-1681407979977-ea6060c802f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdGVlbCUyMG1ldGFsJTIwZmFicmljYXRpb258ZW58MXx8fHwxNzU5Nzc3MDc3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "/images/building/building2.jpeg",
     badge: "Premium"
   },
   {
@@ -37,7 +37,7 @@ const products = [
       "Self-closing doors",
       "Low maintenance design"
     ],
-    image: "https://images.unsplash.com/photo-1738236662730-b4ea66d35d0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjB3YXN0ZSUyMGRpc3Bvc2FsfGVufDF8fHx8MTc1OTc3NzA3Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "/images/building/building3.jpeg",
     badge: null
   }
 ];
